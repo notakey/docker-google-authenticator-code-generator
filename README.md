@@ -1,5 +1,7 @@
 # Google Authenticator QR code generator
 
+![Screenshot](./screenshot.png)
+
 ## Purpose 
 
 Use this docker image to clone your Google Authenticator accounts from Android device. To access active accounts on 
@@ -19,6 +21,9 @@ sqlite>
 
 So the seed code for Example Company account for TOTP code generation is QUU6EA2GHORGMD22SN2YKU6VKISCKYAG in example above. 
 Other values are not important and are used as descriptions for you to distinguish the account.
+
+You can also use this container to generate codes online, if you know the seed code so you dont need to actually install the
+Authenticator app. 
 
 ## Running the container
 
