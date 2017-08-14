@@ -1,0 +1,9 @@
+.buildpath
+.settings
+.DS_Store
+\#*#
+*~
+.project
+.local
+composer.*
+/src/vendor
